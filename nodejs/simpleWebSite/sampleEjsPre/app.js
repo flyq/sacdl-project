@@ -4,6 +4,7 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var session = require('express-session');
 
 var subform = require('./routes/subform');
 var usesession = require('./routes/usesession');
@@ -50,6 +51,12 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
+
+//这里传入了一个密钥加session id
+app.use(cookieParser('Wilson'));
+//使用靠就这个中间件
+app.use(session({ secret: 'wilson'}));
+
 
 app.listen(8000);
 

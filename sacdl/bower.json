@@ -1,0 +1,26 @@
+{
+  "name": "sacdl",
+  "homepage": "https://github.com/flyq/sacdl-project",
+  "authors": [
+    "flyq"
+  ],
+  "description": "Statiscal Analysis of Cryptocurrency Development Languages",
+  "main": "index.js",
+  "keywords": [
+    "Cryptocurrency",
+    "bitcoin",
+    "d3js",
+    "nodejs"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "d3": "^4.7.3"
+  }
+}

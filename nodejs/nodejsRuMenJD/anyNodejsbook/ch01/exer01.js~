@@ -1,0 +1,9 @@
+var http = require('http');
+
+var str = '我在用Node.js写程序！';
+var charCode = str.charCodeAt(0);
+http.createServer(function (req,res) {
+    res.writeHead(200, {'Content-Type': 'text/plain'});
+    res.end(charCode);
+}).listen(3000,"127.0.0.1");
+console.log('Server running at http://127.0.0.1:3000/');

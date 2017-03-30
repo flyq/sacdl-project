@@ -1,0 +1,13 @@
+可以用npm install (-g) install [] 来安装模块
+nodejs有非常多优秀的模块，包括官方非官方
+npm search socket connnet []... 搜索官方模块
+npm docs [] 查看文档
+npm bugs [] 查看项目的bug
+npm edit [] 查看模块的源代码，需要在Nodejs的根目录运行且已经下载到了node_modules了
+
+使用package.json指定依赖关系(dependency)
+成批量的安装所有模块。
+
+评估模块，github的watch，http://blago.dachev.com/modules http://eirikb.github.com/nipster
+
+尽量使用package.json来管理包

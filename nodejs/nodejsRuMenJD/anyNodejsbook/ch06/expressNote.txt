@@ -1,0 +1,31 @@
+基于JSON的API
+单页面Web应用程序
+实时Web应用程序
+
+减少创建应用程序需要的时间
+router, view layer已经被处理
+人气旺，代码稳定性好。
+
+安装express
+express [name]
+cd ./name && npm install
+node app.js
+
+Jada 到底是什么鬼
+views文件夹定义应用程序的布局（layout）。应该是前端哪块展示为什么功能。文件夹结构是可选。
+Express利用模板引擎将视图编译成HTML。默认情况，Express是哟给你Jada作为模板引擎。（template processor)(filter)。
+
+Jade是基于缩进的。缩进很重要。
+
+它使得应用程序可以动态输出数据到HTML中。
+它受Haml（Ruby)启发。
+
+
+
+
+section  标记是HTML5，article, header, nav, section <Introducing HTML5>
+
+
+Jade使用两个特殊字符来决定应该如何翻译代码。
+第一个字符是减号（-），用于告诉随后的代码应当被执行。
+第二个字符是等号（=）。它告诉解释器要对代码进行演算，转义，然后输入。

@@ -1,0 +1,86 @@
+The Rise and Rise of Bitcoin
+
+比特币是一个伟大的创意，科技将推动经济，文化，政治的变化。
+
+一
+相关程序员和黑客和密码学家：
+Satoshi Nakamoto（中本聪），Hal Finney，Anon（匿名者），Martti Malmi，Jeff Garzik，Gavin Andresen，Pieter Wuille，Gregory Maxwell，Matt Corallo，Luke Jr，Mike Hearn，Alex wheas。
+
+二
+2009年10月，第一个交易日开始了。（The first exchange rate was published.）
+1309 BTC = $1.00 USD
+
+2010年春季，佛罗里达的赖斯罗（Laszlo）用10000 bitcoins送给一个愿意给他买一个披萨的人，一个伦敦的哥们接受了，他打了一个国际长途，给他从papa John's订了两个披萨。
+
+一个日本交易所门头沟（mt.Gox）是一个真正意义上的的交易所。
+
+2010年11月，已经挖出四百万比特币。0.5美元一枚
+
+2010年11月11，pc world一个帖子建议维基用BTC来接受捐赠途径。
+2010年12月11，It would have been nice to get this attention in any other context. Wikileaks has kicked the hornet's nest, and the swarm is headed towards us.
+
+2011年01月，the silk road建立。for drugs and other illicit goods.
+BTC made the money trail nearly impossible to trace.
+
+2011年02月，1 BTC = $1，引起用户和投机者注意。
+
+2011年06月，1 BTC = $31，然后突然崩了。门头沟被黑了。
+
+2011年10月，1 BTC = $2
+
+三
+作者在office@butterflylabs.com沟通，用2700BTC买了一台矿机。
+
+在2012-2013年，交易所停闭，BTC缓慢上升，1 BTC=$7，worldpress，Reddit接受BTC。
+
+2013年02月，libertarain conference，在New Hampshire（新罕布什尔州），在20min内下跌20%，然后再上涨20%。Libertarians
+
+blockchain.info
+
+2013年03月18，the financial crimes enforcement network，fincen，颁布虚拟货币条例，Department of the Treasury Financial Crimes Enforcement Network,FIN-2013-G001,2013,03,18 监管者点头
+
+2013年03月国内BTC开始火起来。
+
+四 挖矿
+笔记本，专业矿机
+
+B：欢迎来到financail renaissance，
+A：默认网关：192.168.1.140  255.255.255.0  192.168.1.1
+B：我的采矿地址是stratum.Ozc.In，端口3333
+A：80端口，可以搞到3333
+B：一周10-12BTC，一周后会减少
+
+2013年04月04，1 BTC=$104
+
+Gavin andresen加文`安德森，与中本聪早期相近的人。
+Lead Core Bitcoin Developer，在麻省当程序员
+AMHERST，MA
+与中本聪只是纯粹地合作关系，他最后地交流是发邮件给中本聪告诉他他去中情局被调查。
+他是怎样学习比特币的， It caught my interest. I basically just spent a few days read everything I could about it, looked at the source code, downloaded the source code, thought about it and I really couldn't convince myself that it would not work. It seemed like satoshi had thought of everything. Since then, I've just been sucked down the rabbit hole
+
+NEW YORK
+两周后，2013年04月底，1 BTC = $150
+8 Bitcoin Millionaires:from geeks to rich gurus 
+23-year-old Charlie Shrem is the CEO of a company called bitinstant.
+
+比特币开始时，买它需要去门头沟交易所，过程需要在数个中间机构汇钱，比如BANK， DWOLLA，MT.GOX，需要数周。而Bitinstant就是简化这个步骤的。
+
+Charlie Shrem：让更多的Money在这个经济体系中进进出出，流通。
+
+几个小时内冲到200刀。
+
+比特币是第一个同时具有数字性和稀缺性的东西，digital and scarce。
+
+他做了授权协议，30个州的转账授权。
+
+2013年4月底冲到了266刀，然后跌到了120刀in 6 hours
+from craze to crash
+
+MT.gox的系统崩溃了。Bitinstance的整个交易引擎无法工作，差点关门。
+比特币此时大幅震荡，下挫了100刀，而且无法交易，无法买卖，不能体现，不能充值。
+
+
+
+
+
+

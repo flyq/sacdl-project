@@ -65,7 +65,8 @@ NEW YORK
 
 比特币开始时，买它需要去门头沟交易所，过程需要在数个中间机构汇钱，比如BANK， DWOLLA，MT.GOX，需要数周。而Bitinstant就是简化这个步骤的。
 
-Charlie Shrem：让更多的Money在这个经济体系中进进出出，流通。
+Charlie Shrem
+：让更多的Money在这个经济体系中进进出出，流通。
 
 几个小时内冲到200刀。
 
@@ -80,7 +81,357 @@ MT.gox的系统崩溃了。Bitinstance的整个交易引擎无法工作，差点
 比特币此时大幅震荡，下挫了100刀，而且无法交易，无法买卖，不能体现，不能充值。
 
 
+Charlie Shrem
+毫无疑问，他是一个聪明的家伙，他在BROOKLYN COLLEGE读书时就创建了BITINSTANCE
+
+PITTSBURGH, PA
+从$150跌到$70，人们很疯狂。唯一的不足是交易所只有一个。
+
+SA
+JERED KENNA
+CEO & Founder, Tradehill
+杰瑞德，肯纳，它是第一个和门头沟竞争的本土交易所，也是比特币的百万富翁。
+
+GREG
+20 Mission Tenant
+
+Jered 2年前成立了Tradehill，但是中间机构问题倒闭了，最近遇到Ryan singer，准备重新启动这个。
+
+Ryan Singer
+President & Co founder，tradehill
+
+Jered从小对这些感兴趣，后来成为海军路战队的一员，在阿富汗作战
+oh shit, this is this is real.
+
+Dennis
+20 Mission Tenant
+Salt Lake city, UT
+
+Mike Caldwell
+President , Casascius Coins
+许多社会问题都能被密码学解决。
+现在人们只用密码学做比特币相关，但是它的革新性不仅仅在这里。
+他是相信契约等的。
+
+LA
+Silk Road: the online drug marketplace that officials seem powerless to stop.
+斯蒂文：Steve
+一直在100刀左右徘徊。
+1992年开始上网
+Tor可以匿名上网。
+
+MR.BITCOIN
+卖大麻
+
+DC
+Steve Hudak
+FinCEN Public Affairs Director
+他们不是想搞死比特币
+
+Jennifer Shasky Calvery
+Director，FinCEN
+在司法部专管洗钱，犯罪团伙的。
+比特币监管条例对利用比特币来购买产品和服务的消费者没什么用处，它主要用来对付利用比特币进行洗钱的以及对恐怖主义的援助。比特币是一个双刃剑，其实开始社区的成员都不希望比特币当作坏角色。
+1、比特币与虚拟经济。
+2、比特币在没有普及银行的地方
+3、比特币是金融系统的一部分，所以他就得承担责任。
 
 
 
 
+201305
+San Jose，California CA
+2013年5月，关于比特币爱好者和创业者的比特币会议举行
+Lindsay Holland 琳赛荷兰
+Bitcoin Foundation
+
+Roger ver
+Bitcoin Enterpreneur
+比特币还不为人知
+
+Gavin Andresen
+Lead Core Bitcoin Developer
+And I expect, at least for the next few years, we're gonna remain on a roller-coaster ride. I happen to enjoy roller coasters. I think they are fun.
+
+20130411
+Winklevoss，曾经和Facebook打官司的双胞胎，他们拥有1%的一存在的比特币，1100万刀。他们也给Bitinstant注资了150万刀， 
+Tyler Winklevoss，我们从去年夏天，12年夏天，开始认真关注比特币，并购入。
+Cameron Winklebosss，我感觉就是一个种子发芽了。它以后的成长空间巨大。如果每个人都使用比特币，那么就不需要银行，这是一个多么伟大的想法 
+
+Charlie Shrem
+到英国，澳大利亚，南非，俄罗斯，巴西开展了业务
+
+Sergio Demian Lerner
+Bitcoin Researcher 想hack了酒店系统，然后把聪哥找出来
+
+Trace Mayer
+Monetary Expert
+比特币的创业者找投资者，投资者也有这个意思。这意味着更多比特币的基础设施将建好
+
+Bitpay
+一个亚特兰大的公司，使比特币在商业环境中更易用。提供能让商家接受比特币的同时而不用去担心比特币价格波动的问题
+Stephen Pair & Tony Gallippi
+Co-founders, BitPay
+公司创立的第一年，只有10个人，但是我们一个月需要处理50万刀的交易，那一年基本是这样。
+现在一个月要处理500万刀的交易。用BitPay，不是兑换，实打实的购买。
+
+Roger Ver 罗杰
+Bitcoinstore.com CEO
+他坚信比特币是互联网产生以来的最大技术革新。
+他是多个比特币初创公司的投资者，也是Bitpay的投资者
+因为狂热，他被称为 bitcoin Jesus比特币耶稣
+比特币将改变一切，你们是弄潮儿
+他本住在东京，但是为了宣传比特币，他周游世界。
+信用卡公司凭什么拿1.5-3%的手续费，这就养活了他们。
+而且比特币比信用卡公司更灵活
+此时有50-100交易所。
+
+比特币最近的后期之秀是
+San Francisco company
+Coinbase
+主打钱包服务，让人们更容易去买 使用 接受比特币。
+
+Brian Armstrong: 布伦 阿姆斯特朗
+CEO Coinbase，大公司也会接受比特币
+
+20130507
+Fred Ehrsam：佛罗德 艾瑞斯曼
+Co-founder Coinbase
+大量资金进入比特币。
+我们从Union square bentures募集到五百万刀。Fred Wilson 领投
+
+Fred Wilson
+现在BTC不是在大家都不知道它的阶段，也不是在主流阶段，他现在在过渡阶段。
+
+聚会之后，TradeHill的Jered(杰罗德)举行了聚会 
+
+有个哥们说（应该是投资者），你需要把自己的底细交代清楚，从自由主义角度来讲可能没有必要，但是从商业角度出发，必须要遵守规则，这样我们才能合作，才能一起工作。否则可能进局子。
+
+作者代理门头沟交易所，但是2013年5月门头沟500万刀被美国政府封锁，没有在有关部门那里注册登记。所以吧他们当作违规。
+
+TOKYO，Japan
+作者去见Mark Karpeles 法胖，mt.Gox's CEO
+
+Mark Karpeles & Gonzague 法胖和李良都是法国人，但在在日本运营公司。
+最早，门头沟用来交易一种一个名为魔法收集的游戏卡门来的'magic：The gathering'
+MTGOX：Magic,The,Gathering Online Exchange
+2011年Mark的公司Tibanne收购了门头沟，然后它开始了比特币的业务。
+
+作者会见Mark，需绝口不提美国政府有关部门冻结门头沟账户的事情，因为会影响到美国部门调查的
+在2013年5月，MT GOX每天处理600万刀的交易
+
+Gonzague Gay-Bouchery
+chier Marketing Officer，MT.gox
+去年每月增加10000新用户，今年一月月增加20000新用户，然后三万，六万，十五万。即使最近形势不太好，但是在五月还是增加了10万新用户。
+
+Mark CEO，CFO
+用C++, 看情况使用不同的编程语言。
+
+MTGOX的新引擎能够在处理100万个交易每秒。
+但是Mark的精力被法律问题和竞争者的问题分散了。
+法胖一周工作七天不休息。法胖是居住在大都市的有天赋的家伙。
+
+Lancaster，NH
+118刀
+Erik Voorhees
+Bitcoin Enterpreneur
+www.FreeStateProject.org 一个自由主义者的组织，基本是一些疯狂的无政府资本主义者。这个算是美国的一个比较大的接受比特币的社区了。
+
+Vitalik Buterin
+Lead Writer，Bitcoin Magazine
+Vitalik只有19岁，对比特币有着很深的理解，周游世界去传播比特币。
+我对去中心化很有兴趣。社会运行时会根据人们的信念发生改变的。
+
+Erik voorhees
+Satoshi dice
+一个在线比特币博彩网站。第一个用比特币作为标注的博彩网站。所有的几率和筹码都可以验证，都是公开的。鼎盛的时候，上面的交易额远超其他玩家之和。它是比特币的一个标志性时间，他检验了比特币网络的可靠性。最近Erik把业务搬到了巴拿马，因为在美国的公司，在给全球顾客服务时，得遵守美国的法律。给非洲一个酋长发送比特币时还需要问他美国的社保号码。
+创立了COINAPULT的公司。 人们可以通过邮件甚至短信就可以发送比特币。
+世界上还有许多国家连银行都没有，这是事实，这些人才是能发现比特币价值的那些人
+
+Panama city，PANAMA
+一个月后，Erik已经将中本聪色子卖给了一个不愿透露姓名的投资者，价格是126315BTC
+这里是中美洲的中心
+
+Justin Blincoe
+CFO，Coinapult
+
+Ira Miller
+CTO，Coinapult
+这是我们大脑级的人物。
+读
+Helen fade Gores Cryptanalysis 密码分析
+everyday cryptography 每天密码学
+an introduction to mathematical cryptography数字密码学导论
+
+Gabe Sukenik
+Executive Director，Coinapult
+
+Erik
+BTC要把货币的控制权从政府手中带到民众中，它要把政府和铸币权分离，就像当初的政教分离一样
+他野心很大，引用罗斯财而德的名言，控制一个国家的财富后，谁控制这个国家的法律无所谓了。
+
+丹尼尔
+美国之外的地方，百万以上（mullions of people）的人们无法享受基础的银行服务。
+比特币能够让他们参与到经济全球化中
+
+Erik
+最后，人们像是使用互联网一样使用比特币，因为人们将得到前所未有的自由。
+最后自由将永胜
+
+New York，NY
+2013年7月
+Charlie
+当年Bitinstant只是一个域名，我们两三个人在地下室捣鼓这些
+
+数个2 donzen比特币公司被纽约金融管理局暂停了。
+
+List of companies subpoenaed by the New York State Department of Financial Services:
+BitInstant
+BitPay
+Coinabul
+Coinbase Inc.
+CoinLab
+Coinsetter
+Dwolla
+eCoin Cashier
+Payward, Inc.
+TrustCash Holdings Inc.
+ZipZap
+Butterfly Labs
+Andreesen Horowitz
+Bitcoin Opportunity Fund
+Boost VC Bitcoin Fund
+Founders Fund
+Google Ventures
+Lightspeed Venture Partners
+Tribeca Venture Partners
+Tropos Funds
+Union Square Ventures
+Winklevoss captital Management
+称：我们需要在他们变成变成一个能处理大量金融交易的地方前，确保能保证人们的利益。
+ 
+因为缺乏相关的法律，很多银行不再和BTC进行交易
+
+David Stein
+Director, Promonotory Financial Group
+监管条例总是比技术革新来得慢
+
+Ryan Singer
+President & Co-founder, Tradehill
+和银行接受BTC，就像跟书店解释亚马逊
+
+如果条例没跟上，没有银行会和BTC公司进行交易，新法规至少要历时一年才可以。
+
+Butterflyq Labs
+挖矿行业，mine。
+
+丹尼尔开始时，挖矿只是一个hobby，现在是一个商业产业。
+Reserved Bit-coin meet-up
+I keep thinking that there's gotta be an easier way to just set up a secondary protocol to trade private keys.
+
+天朝也是价格猛升的原因。
+150刀 
+
+Bobby Lee
+CEO, BTC China
+文化和国家的因素，让中国人民很喜欢去了解网上的不同事物。关于科学的，数学的东西。
+中国很有可能把BTC带向主流。
+
+Berlin，Germany
+德国财政部是第一个承认比特币为私人货币的机构。
+Bitcoin recognized by Germany as 'private money'
+
+Joerg Platzer
+Crypto Consultant
+如果要让我们的社会更公平，削减银行的职能是关键。
+
+FBI关停了silk road。
+在旧金山图书馆的科幻小说区，联邦调查局的密探发现了一个正在用笔记本工作的小伙子。
+
+Ross Albrecht 罗斯，埃尔布罗齐
+29岁的软件工程师，Silk road 的管理层
+被抓了了。
+
+James angel
+Professor of Finance, George Law University
+比特币在合法化之前,不会有多大的发展,我还没有看见比特币有多大的立足之地.我们有中央银行控制，印刷货币也不是完全没有道理.
+这样，我们能够来调整经济,就像黑武士说的那样,别把你们的信念都放在科学技术上,10年后回头看现在的时候，比特币热是很搞笑的
+
+但是持乐观态度的人很多
+OpenSource这就允许了很多移动钱包和金融技术甚至全世界范围内都可以
+
+人们一直被货币阴谋折磨着，现在终于可以逃脱它了
+
+那一股强大的力量才刚刚开始
+
+最近又到200刀，别人觉得已经很高时，他认为没有。
+
+我见过很多有趣的人，他们似乎被禁锢住了。他们总爱面对那与众人相反的一面，跟随并且相信自己内心的想法，人们尝试疯狂想法的时候，经常会失败，然后就有人指着你,大笑，然后说，“看吧我说那是很傻逼的你不信”。,但是一旦成功了会怎么样？我觉得,比特币就是这样的情况,关于把比特币纳入我们,监管范围的讨论,应该被看成是一个,他发展道路上的有利因素,我在这发言，是因为我相信,数字货币,代表着我们这个时代的,最终要的技术革新,我们对虚拟货币,和数字经济,能对社会做出的潜在贡献表示极大的热枕,我们谈论的上一次的技术革新,已经发展到了,一个全新的阶段,怎么推行这个
+如果你想的远一点这是有广阔的前景的啊
+
+I've met so many  interesting people and there seems to be one thing that kind of binds a lot of them together, and that is that they're willing to face opposition and follow through on the ideas that they believe in. The people who try  the crazy ideas often fail and then everybody likes to point their fingers and laugh and say,  "that was such a stupid idea." But once in a while  it works out.I think bitcoin is proving to be one of those things.
+
+一个月以后，the U.S Senate held the first-ever congressional hearing on virtual currencies.
+
+Digital Currency
+Senate Homeland Security Committee
+Dirksen Office Building
+
+Digital Currency
+Jeremy Allaire
+Cirecle Internet Financial CEO
+
+Digital Currency
+Ernie Allen
+int'l Centre for Missing & Exploited Children
+President & CEO
+
+Digital Currency
+Sen. Jeff Merkley
+D-Oregon, Banking Subcommittee
+on Economic Policy-Chairman
+
+Digital Currency
+Senate Homeland Security Committee
+Dirksen Office Building
+
+Digital Currency
+Jerry Brito
+George Mason University Mercatus Center
+Technology Policy Program Director
+
+Digital Currency
+Sen. Mark Warner
+D-virginia, Banking Subcommittee on National Security, International Trade & Finanace-Chairman
+
+
+The decision to bring virtual currency within the scope of our regulatory framework should be viewed as a positive development for this sector. I'm here to testify, because I believe that digital currency represents one of the most important technical and economic innovations of our time. We are enthusiastic about the potential of virtual currencies and the digital economy for social good. This latest generation of technology which we're talking about today takes things to a whole new level.There's a bit of a shared responsibility here
+If you think a little broadly,this could, again, have huge huge implications.
+
+The response to Bitcoin was overwhelmingly positive.
+
+一周后，BTC冲到了1000刀，这是2013年6月-7月？
+
+2014年，电影快要完成，Charlie Shrem从阿姆斯特丹的峰会回来被软禁。因为Bitinstant。
+被联邦反犯罪洗钱机构逮捕了，因为涉嫌经营无牌照的货币兑换，并对可疑活动没有做记录。诉状声称查理把比特币卖给一个币贩子，而那个人参与运作着丝绸之路
+
+2014年二月
+谣言传了几个月说门头沟要破产了，到2月网站下线了
+
+
+Nicholas Mross导演
+Ben Bledsoe
+Nicholas Mross
+Patrick Lope 制作
+Patrick Lope 编剧
+
+Ashley Mross
+Daniel Mross Co-produced
+
+丢了就是丢了。 
+
+
+
+
+
+总结：现在有两个痛点：一个是偏远地区的金融化，银行不做的脏活累活。

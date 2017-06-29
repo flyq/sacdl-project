@@ -1,0 +1,17 @@
+# https://hyperledger-fabric.readthedocs.io/en/latest/dev-setup/devenv.html#
+
+Prerequisites
+    Git client  done before
+    Go - 1.7 or later (for releases before v1.0, 1.6 or later)  done before 路径设置在 /etc/profile
+    For macOS, Xcode must be installed
+    Docker - 1.12 or later
+    Docker Compose - 1.8.1 or later
+    Pip
+    (macOS) you may need to install gnutar, as macOS comes with bsdtar as the default, but the build uses some gnutar flags. You can use Homebrew to install it as follows:
+
+brew install gnu-tar --with-default-names
+
+    (only if using Vagrant) - Vagrant - 1.7.4 or later
+    (only if using Vagrant) - VirtualBox - 5.0 or later
+    BIOS Enabled Virtualization - Varies based on hardware
+    Note: The BIOS Enabled Virtualization may be within the CPU or Security settings of the BIOS

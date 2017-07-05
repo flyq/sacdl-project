@@ -1,0 +1,178 @@
+./startFabric.sh 
+Creating network "network_default" with the default driver
+Pulling couchdb (hyperledger/fabric-couchdb:x86_64-1.0.0-rc1)...
+x86_64-1.0.0-rc1: Pulling from hyperledger/fabric-couchdb
+aafe6b5e13de: Pull complete
+0a2b43a72660: Pull complete
+18bdd1e546d2: Pull complete
+8198342c3e05: Pull complete
+f56970a44fd4: Pull complete
+e32b597e7839: Pull complete
+a6e362fc71c4: Pull complete
+e21570e54f61: Pull complete
+66620db3cda6: Pull complete
+0548c619fbb7: Pull complete
+e084aff94b0b: Pull complete
+a42ce4c07919: Pull complete
+3335747171e6: Pull complete
+661676098bce: Pull complete
+b59572c7d3c8: Pull complete
+7f424bed7c07: Pull complete
+6973d9ea9797: Pull complete
+bbd24df006f2: Pull complete
+dd7e392626a1: Pull complete
+Digest: sha256:80923528e5d570a77dc930cce2dc3e77ff72a8a437316844cbcd4808e7c99311
+Status: Downloaded newer image for hyperledger/fabric-couchdb:x86_64-1.0.0-rc1
+Pulling orderer.example.com (hyperledger/fabric-orderer:x86_64-1.0.0-rc1)...
+x86_64-1.0.0-rc1: Pulling from hyperledger/fabric-orderer
+aafe6b5e13de: Already exists
+0a2b43a72660: Already exists
+18bdd1e546d2: Already exists
+8198342c3e05: Already exists
+f56970a44fd4: Already exists
+e32b597e7839: Already exists
+a6e362fc71c4: Already exists
+473f7e491e8d: Pull complete
+5e5c993e591d: Pull complete
+5dbd2e93fe54: Pull complete
+Digest: sha256:06c5c17669123a958cb852c3cb41fdd57c3c7f6771dbe1d6bfc5ef9e2b890b15
+Status: Downloaded newer image for hyperledger/fabric-orderer:x86_64-1.0.0-rc1
+Pulling peer0.org1.example.com (hyperledger/fabric-peer:x86_64-1.0.0-rc1)...
+x86_64-1.0.0-rc1: Pulling from hyperledger/fabric-peer
+aafe6b5e13de: Already exists
+0a2b43a72660: Already exists
+18bdd1e546d2: Already exists
+8198342c3e05: Already exists
+f56970a44fd4: Already exists
+e32b597e7839: Already exists
+a6e362fc71c4: Already exists
+473f7e491e8d: Already exists
+e906dd3a3eaa: Pull complete
+44ea1d0453e6: Pull complete
+Digest: sha256:b7646822fb682e659cf4e81260ef860f5f9e45c9c7b45ec0ee343066f8f079c2
+Status: Downloaded newer image for hyperledger/fabric-peer:x86_64-1.0.0-rc1
+Pulling cli (hyperledger/fabric-tools:x86_64-1.0.0-rc1)...
+x86_64-1.0.0-rc1: Pulling from hyperledger/fabric-tools
+aafe6b5e13de: Already exists
+0a2b43a72660: Already exists
+18bdd1e546d2: Already exists
+8198342c3e05: Already exists
+f56970a44fd4: Already exists
+e32b597e7839: Already exists
+a6e362fc71c4: Already exists
+e21570e54f61: Already exists
+66620db3cda6: Already exists
+0548c619fbb7: Already exists
+e084aff94b0b: Already exists
+2f99c88d12e0: Pull complete
+b3afadea235e: Pull complete
+ef0994fca694: Pull complete
+6fdcafba0308: Pull complete
+Digest: sha256:bb36ff2f026a5301612977fed246ab2e69b6e8898cf134808dddfa11074eb3b3
+Status: Downloaded newer image for hyperledger/fabric-tools:x86_64-1.0.0-rc1
+Creating couchdb ... 
+Creating orderer.example.com ... 
+Creating couchdb
+Creating orderer.example.com ... done
+Creating peer0.org1.example.com ... 
+Creating peer0.org1.example.com ... done
+Creating cli ... 
+Creating cli ... done
+2017-07-02 07:41:02.719 UTC [msp] getMspConfig -> WARN 001 Intermediate certs folder not found at [/etc/hyperledger/msp/users/Admin@org1.example.com/msp/intermediatecerts]. Skipping. [stat /etc/hyperledger/msp/users/Admin@org1.example.com/msp/intermediatecerts: no such file or directory]
+2017-07-02 07:41:02.719 UTC [msp] getMspConfig -> WARN 002 TLS intermediate certs folder not found at [/etc/hyperledger/msp/users/Admin@org1.example.com/msp/tlsintermediatecerts]. Skipping. [stat /etc/hyperledger/msp/users/Admin@org1.example.com/msp/tlsintermediatecerts: no such file or directory]
+2017-07-02 07:41:02.719 UTC [msp] getMspConfig -> WARN 003 crls folder not found at [/etc/hyperledger/msp/users/Admin@org1.example.com/msp/crls]. Skipping. [stat /etc/hyperledger/msp/users/Admin@org1.example.com/msp/crls: no such file or directory]
+2017-07-02 07:41:02.719 UTC [msp] getMspConfig -> INFO 004 MSP configuration file not found at [/etc/hyperledger/msp/users/Admin@org1.example.com/msp/config.yaml]: [stat /etc/hyperledger/msp/users/Admin@org1.example.com/msp/config.yaml: no such file or directory]
+2017-07-02 07:41:02.741 UTC [msp] GetLocalMSP -> DEBU 005 Returning existing local MSP
+2017-07-02 07:41:02.741 UTC [msp] GetDefaultSigningIdentity -> DEBU 006 Obtaining default signing identity
+2017-07-02 07:41:02.742 UTC [channelCmd] InitCmdFactory -> INFO 007 Endorser and orderer connections initialized
+2017-07-02 07:41:02.743 UTC [msp] GetLocalMSP -> DEBU 008 Returning existing local MSP
+2017-07-02 07:41:02.743 UTC [msp] GetDefaultSigningIdentity -> DEBU 009 Obtaining default signing identity
+2017-07-02 07:41:02.743 UTC [msp] GetLocalMSP -> DEBU 00a Returning existing local MSP
+2017-07-02 07:41:02.743 UTC [msp] GetDefaultSigningIdentity -> DEBU 00b Obtaining default signing identity
+2017-07-02 07:41:02.743 UTC [msp/identity] Sign -> DEBU 00c Sign: plaintext: 0A8C060A074F7267314D53501280062D...53616D706C65436F6E736F727469756D 
+2017-07-02 07:41:02.743 UTC [msp/identity] Sign -> DEBU 00d Sign: digest: 138A2FDAEC4800FE29132B12EE4488A14FF981C227BCF87EADCEE1EDA60743E6 
+2017-07-02 07:41:02.743 UTC [msp] GetLocalMSP -> DEBU 00e Returning existing local MSP
+2017-07-02 07:41:02.743 UTC [msp] GetDefaultSigningIdentity -> DEBU 00f Obtaining default signing identity
+2017-07-02 07:41:02.743 UTC [msp] GetLocalMSP -> DEBU 010 Returning existing local MSP
+2017-07-02 07:41:02.743 UTC [msp] GetDefaultSigningIdentity -> DEBU 011 Obtaining default signing identity
+2017-07-02 07:41:02.743 UTC [msp/identity] Sign -> DEBU 012 Sign: plaintext: 0AC3060A1508021A06088EC7E2CA0522...9D5F7804D3ED9CF3E26AC0EC16EB62B3 
+2017-07-02 07:41:02.743 UTC [msp/identity] Sign -> DEBU 013 Sign: digest: C5C5A469880E42B87A0BAA368560036A6B2554EBBA142FD5001C5C766D3B38DE 
+2017-07-02 07:41:02.792 UTC [msp] GetLocalMSP -> DEBU 014 Returning existing local MSP
+2017-07-02 07:41:02.792 UTC [msp] GetDefaultSigningIdentity -> DEBU 015 Obtaining default signing identity
+2017-07-02 07:41:02.793 UTC [msp] GetLocalMSP -> DEBU 016 Returning existing local MSP
+2017-07-02 07:41:02.793 UTC [msp] GetDefaultSigningIdentity -> DEBU 017 Obtaining default signing identity
+2017-07-02 07:41:02.793 UTC [msp/identity] Sign -> DEBU 018 Sign: plaintext: 0AC3060A1508021A06088EC7E2CA0522...87510F6F8F9B12080A021A0012021A00 
+2017-07-02 07:41:02.793 UTC [msp/identity] Sign -> DEBU 019 Sign: digest: 7221BB4379E0302A4933CB9F849D413B34BF613327350BDDFE4F483A570CA5D4 
+2017-07-02 07:41:02.794 UTC [channelCmd] readBlock -> DEBU 01a Got status:*orderer.DeliverResponse_Status 
+2017-07-02 07:41:02.794 UTC [msp] GetLocalMSP -> DEBU 01b Returning existing local MSP
+2017-07-02 07:41:02.794 UTC [msp] GetDefaultSigningIdentity -> DEBU 01c Obtaining default signing identity
+2017-07-02 07:41:02.795 UTC [channelCmd] InitCmdFactory -> INFO 01d Endorser and orderer connections initialized
+2017-07-02 07:41:02.995 UTC [msp] GetLocalMSP -> DEBU 01e Returning existing local MSP
+2017-07-02 07:41:02.996 UTC [msp] GetDefaultSigningIdentity -> DEBU 01f Obtaining default signing identity
+2017-07-02 07:41:02.996 UTC [msp] GetLocalMSP -> DEBU 020 Returning existing local MSP
+2017-07-02 07:41:02.996 UTC [msp] GetDefaultSigningIdentity -> DEBU 021 Obtaining default signing identity
+2017-07-02 07:41:02.996 UTC [msp/identity] Sign -> DEBU 022 Sign: plaintext: 0AC3060A1508021A06088EC7E2CA0522...8A44DE8FF36C12080A021A0012021A00 
+2017-07-02 07:41:02.996 UTC [msp/identity] Sign -> DEBU 023 Sign: digest: EEFB4C776D2D3BE6902E9F2C94B3F19F6F5C282A9BF5CD4A7A1423C3F4B61234 
+2017-07-02 07:41:02.998 UTC [channelCmd] readBlock -> DEBU 024 Received block:0 
+2017-07-02 07:41:02.998 UTC [main] main -> INFO 025 Exiting.....
+2017-07-02 07:41:03.070 UTC [msp] getMspConfig -> WARN 001 Intermediate certs folder not found at [/etc/hyperledger/msp/users/Admin@org1.example.com/msp/intermediatecerts]. Skipping. [stat /etc/hyperledger/msp/users/Admin@org1.example.com/msp/intermediatecerts: no such file or directory]
+2017-07-02 07:41:03.071 UTC [msp] getMspConfig -> WARN 002 TLS intermediate certs folder not found at [/etc/hyperledger/msp/users/Admin@org1.example.com/msp/tlsintermediatecerts]. Skipping. [stat /etc/hyperledger/msp/users/Admin@org1.example.com/msp/tlsintermediatecerts: no such file or directory]
+2017-07-02 07:41:03.071 UTC [msp] getMspConfig -> WARN 003 crls folder not found at [/etc/hyperledger/msp/users/Admin@org1.example.com/msp/crls]. Skipping. [stat /etc/hyperledger/msp/users/Admin@org1.example.com/msp/crls: no such file or directory]
+2017-07-02 07:41:03.071 UTC [msp] getMspConfig -> INFO 004 MSP configuration file not found at [/etc/hyperledger/msp/users/Admin@org1.example.com/msp/config.yaml]: [stat /etc/hyperledger/msp/users/Admin@org1.example.com/msp/config.yaml: no such file or directory]
+2017-07-02 07:41:03.091 UTC [msp] GetLocalMSP -> DEBU 005 Returning existing local MSP
+2017-07-02 07:41:03.091 UTC [msp] GetDefaultSigningIdentity -> DEBU 006 Obtaining default signing identity
+2017-07-02 07:41:03.092 UTC [channelCmd] InitCmdFactory -> INFO 007 Endorser and orderer connections initialized
+2017-07-02 07:41:03.092 UTC [msp/identity] Sign -> DEBU 008 Sign: plaintext: 0A89070A5B08011A0B088FC7E2CA0510...603281E61F151A080A000A000A000A00 
+2017-07-02 07:41:03.092 UTC [msp/identity] Sign -> DEBU 009 Sign: digest: AA3664A2EA6F006178742570E82EE2303E9C5728DA4A9FA126A48FC651781F1F 
+2017-07-02 07:41:03.444 UTC [channelCmd] executeJoin -> INFO 00a Peer joined the channel!
+2017-07-02 07:41:03.444 UTC [main] main -> INFO 00b Exiting.....
+2017-07-02 07:41:03.523 UTC [msp] getMspConfig -> WARN 001 Intermediate certs folder not found at [/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/intermediatecerts]. Skipping. [stat /opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/intermediatecerts: no such file or directory]
+2017-07-02 07:41:03.523 UTC [msp] getMspConfig -> WARN 002 TLS intermediate certs folder not found at [/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/tlsintermediatecerts]. Skipping. [stat /opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/tlsintermediatecerts: no such file or directory]
+2017-07-02 07:41:03.523 UTC [msp] getMspConfig -> WARN 003 crls folder not found at [/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/crls]. Skipping. [stat /opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/crls: no such file or directory]
+2017-07-02 07:41:03.523 UTC [msp] getMspConfig -> INFO 004 MSP configuration file not found at [/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/config.yaml]: [stat /opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/config.yaml: no such file or directory]
+2017-07-02 07:41:03.549 UTC [msp] GetLocalMSP -> DEBU 005 Returning existing local MSP
+2017-07-02 07:41:03.549 UTC [msp] GetDefaultSigningIdentity -> DEBU 006 Obtaining default signing identity
+2017-07-02 07:41:03.549 UTC [chaincodeCmd] checkChaincodeCmdParams -> INFO 007 Using default escc
+2017-07-02 07:41:03.549 UTC [chaincodeCmd] checkChaincodeCmdParams -> INFO 008 Using default vscc
+2017-07-02 07:41:04.177 UTC [golang-platform] getCodeFromFS -> DEBU 009 getCodeFromFS github.com/fabcar
+2017-07-02 07:41:05.191 UTC [golang-platform] func1 -> DEBU 00a Discarding GOROOT package bytes
+2017-07-02 07:41:05.192 UTC [golang-platform] func1 -> DEBU 00b Discarding GOROOT package encoding/json
+2017-07-02 07:41:05.192 UTC [golang-platform] func1 -> DEBU 00c Discarding GOROOT package fmt
+2017-07-02 07:41:05.192 UTC [golang-platform] func1 -> DEBU 00d Discarding provided package github.com/hyperledger/fabric/core/chaincode/shim
+2017-07-02 07:41:05.192 UTC [golang-platform] func1 -> DEBU 00e Discarding provided package github.com/hyperledger/fabric/protos/peer
+2017-07-02 07:41:05.192 UTC [golang-platform] func1 -> DEBU 00f Discarding GOROOT package strconv
+2017-07-02 07:41:05.192 UTC [golang-platform] GetDeploymentPayload -> DEBU 010 done
+2017-07-02 07:41:05.194 UTC [msp/identity] Sign -> DEBU 011 Sign: plaintext: 0A89070A5B08031A0B0891C7E2CA0510...173FFF090000FFFF47FDE8BF00200000 
+2017-07-02 07:41:05.194 UTC [msp/identity] Sign -> DEBU 012 Sign: digest: 6D11A34E23AAA11DE5ABDD80AB9F4AB1CA86D4B727C8BC1C08F7B305773B3D0F 
+2017-07-02 07:41:05.199 UTC [chaincodeCmd] install -> DEBU 013 Installed remotely response:<status:200 payload:"OK" > 
+2017-07-02 07:41:05.199 UTC [main] main -> INFO 014 Exiting.....
+2017-07-02 07:41:05.275 UTC [msp] getMspConfig -> WARN 001 Intermediate certs folder not found at [/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/intermediatecerts]. Skipping. [stat /opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/intermediatecerts: no such file or directory]
+2017-07-02 07:41:05.275 UTC [msp] getMspConfig -> WARN 002 TLS intermediate certs folder not found at [/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/tlsintermediatecerts]. Skipping. [stat /opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/tlsintermediatecerts: no such file or directory]
+2017-07-02 07:41:05.275 UTC [msp] getMspConfig -> WARN 003 crls folder not found at [/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/crls]. Skipping. [stat /opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/crls: no such file or directory]
+2017-07-02 07:41:05.275 UTC [msp] getMspConfig -> INFO 004 MSP configuration file not found at [/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/config.yaml]: [stat /opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/config.yaml: no such file or directory]
+2017-07-02 07:41:05.296 UTC [msp] GetLocalMSP -> DEBU 005 Returning existing local MSP
+2017-07-02 07:41:05.296 UTC [msp] GetDefaultSigningIdentity -> DEBU 006 Obtaining default signing identity
+2017-07-02 07:41:05.297 UTC [chaincodeCmd] checkChaincodeCmdParams -> INFO 007 Using default escc
+2017-07-02 07:41:05.297 UTC [chaincodeCmd] checkChaincodeCmdParams -> INFO 008 Using default vscc
+2017-07-02 07:41:05.298 UTC [msp/identity] Sign -> DEBU 009 Sign: plaintext: 0A95070A6708031A0C0891C7E2CA0510...324D53500A04657363630A0476736363 
+2017-07-02 07:41:05.298 UTC [msp/identity] Sign -> DEBU 00a Sign: digest: E32F1AFEA0DBB40E815FE666C32D04B6FEEBF5CA78CA202EED068C5EA7A8D4FB 
+2017-07-02 07:41:57.393 UTC [msp/identity] Sign -> DEBU 00b Sign: plaintext: 0A95070A6708031A0C0891C7E2CA0510...A6F7B44A2CCD7471878991867A6C966F 
+2017-07-02 07:41:57.393 UTC [msp/identity] Sign -> DEBU 00c Sign: digest: E03BE9DEFB192981EBB52F3578AAFFA1EF2433152D98F5B847C955E44BF14BEC 
+2017-07-02 07:41:57.395 UTC [main] main -> INFO 00d Exiting.....
+2017-07-02 07:42:07.484 UTC [msp] getMspConfig -> WARN 001 Intermediate certs folder not found at [/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/intermediatecerts]. Skipping. [stat /opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/intermediatecerts: no such file or directory]
+2017-07-02 07:42:07.484 UTC [msp] getMspConfig -> WARN 002 TLS intermediate certs folder not found at [/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/tlsintermediatecerts]. Skipping. [stat /opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/tlsintermediatecerts: no such file or directory]
+2017-07-02 07:42:07.484 UTC [msp] getMspConfig -> WARN 003 crls folder not found at [/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/crls]. Skipping. [stat /opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/crls: no such file or directory]
+2017-07-02 07:42:07.484 UTC [msp] getMspConfig -> INFO 004 MSP configuration file not found at [/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/config.yaml]: [stat /opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/config.yaml: no such file or directory]
+2017-07-02 07:42:07.507 UTC [msp] GetLocalMSP -> DEBU 005 Returning existing local MSP
+2017-07-02 07:42:07.507 UTC [msp] GetDefaultSigningIdentity -> DEBU 006 Obtaining default signing identity
+2017-07-02 07:42:07.508 UTC [chaincodeCmd] checkChaincodeCmdParams -> INFO 007 Using default escc
+2017-07-02 07:42:07.508 UTC [chaincodeCmd] checkChaincodeCmdParams -> INFO 008 Using default vscc
+2017-07-02 07:42:07.508 UTC [msp/identity] Sign -> DEBU 009 Sign: plaintext: 0A97070A6908031A0C08CFC7E2CA0510...1A0E0A0A696E69744C65646765720A00 
+2017-07-02 07:42:07.508 UTC [msp/identity] Sign -> DEBU 00a Sign: digest: 656152D5E4D9811E508C1A1F69CC95F1C74AAD7D7C744E602323275B1B6F3F43 
+2017-07-02 07:42:07.538 UTC [msp/identity] Sign -> DEBU 00b Sign: plaintext: 0A97070A6908031A0C08CFC7E2CA0510...041C300C50516AB38306D5859781A429 
+2017-07-02 07:42:07.538 UTC [msp/identity] Sign -> DEBU 00c Sign: digest: AAAAE7E50E7CE66C3ABB1897DB0E1C1D60CCD0602CE19E294EBC5427C2AA5A22 
+2017-07-02 07:42:07.540 UTC [chaincodeCmd] chaincodeInvokeOrQuery -> DEBU 00d ESCC invoke result: version:1 response:<status:200 message:"OK" > payload:"\n \372\252\244\213a\371J+\232\231@Me=p\021gB\032\313\t\236\t\240\006\035\261-6\270\177\213\022\267\006\n\240\006\022\205\006\n\006fabcar\022\372\005\032J\n\004CAR0\032B{\"make\":\"Toyota\",\"model\":\"Prius\",\"colour\":\"blue\",\"owner\":\"Tomoko\"}\032G\n\004CAR1\032?{\"make\":\"Ford\",\"model\":\"Mustang\",\"colour\":\"red\",\"owner\":\"Brad\"}\032N\n\004CAR2\032F{\"make\":\"Hyundai\",\"model\":\"Tucson\",\"colour\":\"green\",\"owner\":\"Jin Soo\"}\032N\n\004CAR3\032F{\"make\":\"Volkswagen\",\"model\":\"Passat\",\"colour\":\"yellow\",\"owner\":\"Max\"}\032G\n\004CAR4\032?{\"make\":\"Tesla\",\"model\":\"S\",\"colour\":\"black\",\"owner\":\"Adriana\"}\032K\n\004CAR5\032C{\"make\":\"Peugeot\",\"model\":\"205\",\"colour\":\"purple\",\"owner\":\"Michel\"}\032H\n\004CAR6\032@{\"make\":\"Chery\",\"model\":\"S22L\",\"colour\":\"white\",\"owner\":\"Aarav\"}\032H\n\004CAR7\032@{\"make\":\"Fiat\",\"model\":\"Punto\",\"colour\":\"violet\",\"owner\":\"Pari\"}\032J\n\004CAR8\032B{\"make\":\"Tata\",\"model\":\"Nano\",\"colour\":\"indigo\",\"owner\":\"Valeria\"}\032M\n\004CAR9\032E{\"make\":\"Holden\",\"model\":\"Barina\",\"colour\":\"brown\",\"owner\":\"Shotaro\"}\022\026\n\004lscc\022\016\n\014\n\006fabcar\022\002\010\001\032\003\010\310\001\"\r\022\006fabcar\032\0031.0" endorsement:<endorser:"\n\007Org1MSP\022\374\005-----BEGIN -----\nMIICGDCCAb+gAwIBAgIQPcMFFEB/vq6mEL6vXV7aUTAKBggqhkjOPQQDAjBzMQsw\nCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNU2FuIEZy\nYW5jaXNjbzEZMBcGA1UEChMQb3JnMS5leGFtcGxlLmNvbTEcMBoGA1UEAxMTY2Eu\nb3JnMS5leGFtcGxlLmNvbTAeFw0xNzA2MjMxMjMzMTlaFw0yNzA2MjExMjMzMTla\nMFsxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1T\nYW4gRnJhbmNpc2NvMR8wHQYDVQQDExZwZWVyMC5vcmcxLmV4YW1wbGUuY29tMFkw\nEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEzS9k2gCKHcat8Wj4T2nB1uyC8R2zg3um\nxdTL7nmgFWp0uyCCbQQxD/VS+8R/3DNvEFkvzhcjc9NU/nRqMirpLqNNMEswDgYD\nVR0PAQH/BAQDAgeAMAwGA1UdEwEB/wQCMAAwKwYDVR0jBCQwIoAgDnKSJOiz8xeE\nyKk8W4729MHJHZ5uV3xFwzFjYJ/kABEwCgYIKoZIzj0EAwIDRwAwRAIgHBdxbHUG\nrFUzKPX9UmmN3SwigWcRUREUy/GTb3hDIAsCIEF1BxTqv8ilQYE8ql0wJL4mTber\nHE6DFYvvBCUnicUh\n-----END -----\n" signature:"0D\002 Rb9\270\247\345\342\023\256u\354!=0\n\310s\244,\327\257R\327>\017\036\216\003(b\242\267\002 h\370\323\177\2558\212\216>\331\356\357\322f(\327\004\0340\014PQj\263\203\006\325\205\227\201\244)" > 
+2017-07-02 07:42:07.540 UTC [chaincodeCmd] chaincodeInvokeOrQuery -> INFO 00e Chaincode invoke successful. result: status:200 
+2017-07-02 07:42:07.540 UTC [main] main -> INFO 00f Exiting.....
+
+Total execution time : 544 secs ...

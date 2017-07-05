@@ -1,0 +1,35 @@
+尽量使用非Vagrant的开发环境，既本机开发而不是虚拟机。
+
+1.安装git工具。ssh登录的新的机器，直接安装软件提升404 NOT FIND，sudo apt-get update后就可以。sudo apt-get install git, git --version
+
+2.安装emacs24,sudo apt-get install emacs24
+
+3.安装go https://golang.org/doc/install
+下载：curl -o go1.8.3.linux-amd64.tar.gz https://storage.googleapis.com/golang/go1.8.3.linux-amd64.tar.gz
+解压：tar -xzf go1.8.3.linux-amd64.tar.gz
+设置全局环境：sudo emacs /etc/profile,在profile文件中加入：
+export PATH=$PATH:~/go/bin
+export GOROOT=$HOME/go
+export PATH=$PATH:$GOROOT/bin
+然后保存退出
+更新环境：source /etc/profile
+写hello.go测试显示安装成功。
+
+4.安装Docker https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/
+通过容器，整个开发、测试和生产环境可以保持高度的一致。 http://www.tuicool.com/articles/ry6V3uR
+Hello from Docker!
+This message shows that your installation appears to be working correctly.
+To generate this message, Docker took the following steps:
+ 1. The Docker client contacted the Docker daemon.
+ 2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
+ 3. The Docker daemon created a new container from that image which runs the
+    executable that produces the output you are currently reading.
+ 4. The Docker daemon streamed that output to the Docker client, which sent it
+    to your terminal.
+To try something more ambitious, you can run an Ubuntu container with:
+ $ docker run -it ubuntu bash
+Share images, automate workflows, and more with a free Docker ID:
+ https://cloud.docker.com/
+For more examples and ideas, visit:
+ https://docs.docker.com/engine/userguide/
+

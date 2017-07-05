@@ -1,17 +1,111 @@
 # https://hyperledger-fabric.readthedocs.io/en/latest/dev-setup/devenv.html#
 
 Prerequisites
-    Git client  done before
-    Go - 1.7 or later (for releases before v1.0, 1.6 or later)  done before 路径设置在 /etc/profile
-    For macOS, Xcode must be installed
-    Docker - 1.12 or later
-    Docker Compose - 1.8.1 or later
-    Pip
-    (macOS) you may need to install gnutar, as macOS comes with bsdtar as the default, but the build uses some gnutar flags. You can use Homebrew to install it as follows:
 
+    Git client  done before
+
+
+    Go - 1.7 or later (for releases before v1.0, 1.6 or later)  done before 路径设置在 /etc/profile
+
+
+    For macOS, Xcode must be installed
+
+
+    Docker - 1.12 or later  # https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/ 注意：$ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" 这个命令中$(lsb_release -cs)这个整体是一个变量，要全部用xenial代替。
+
+
+    Docker Compose - 1.8.1 or later  done flyq@flyq-Z510:~$ docker-compose -v
+docker-compose version 1.14.0, build c7bdf9e
+flyq@flyq-Z510:~$ 
+
+
+    Pip  done before
+    (macOS) you may need to install gnutar, as macOS comes with bsdtar as the default, but the build uses some gnutar flags. You can use Homebrew to install it as follows:
 brew install gnu-tar --with-default-names
 
-    (only if using Vagrant) - Vagrant - 1.7.4 or later
-    (only if using Vagrant) - VirtualBox - 5.0 or later
+
+    (only if using Vagrant) - Vagrant - 1.7.4 or later  sudo apt install vagrant
+
+
+    (only if using Vagrant) - VirtualBox - 5.0 or later  done before
+
+
     BIOS Enabled Virtualization - Varies based on hardware
     Note: The BIOS Enabled Virtualization may be within the CPU or Security settings of the BIOS
+
+
+pip install --upgrade pip  log：Requirement already up-to-date: pip in ./.local/lib/python2.7/site-packages
+
+
+pip install behave nose docker-compose  sudo pip install behave nose docker-compose  done successfully
+
+
+pip install -I flask==0.10.1 python-dateutil==2.2 pytz==2014.3 pyyaml==3.10 couchdb==1.0 flask-cors==2.0.1 requests==2.4.3 pyOpenSSL==16.2.0 pysha3==1.0b1 grpcio==1.0.4
+
+  creating build/temp.linux-x86_64-2.7/build/temp.linux-x86_64-2.7
+  x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fno-strict-aliasing -Wdate-time -D_FORTIFY_SOURCE=2 -g -fstack-protector-strong -Wformat -Werror=format-security -fPIC -I/usr/include/python2.7 -c build/temp.linux-x86_64-2.7/_openssl.c -o build/temp.linux-x86_64-2.7/build/temp.linux-x86_64-2.7/_openssl.o
+  build/temp.linux-x86_64-2.7/_openssl.c:434:30: fatal error: openssl/opensslv.h: No such file or directory
+  compilation terminated.
+  error: command 'x86_64-linux-gnu-gcc' failed with exit status 1
+  
+  ----------------------------------------
+  Failed building wheel for cryptography
+  Running setup.py clean for cryptography
+Failed to build cryptography
+Installing collected packages: itsdangerous, Werkzeug, MarkupSafe, Jinja2, flask, six, python-dateutil, pytz, pyyaml, couchdb, flask-cors, requests, idna, asn1crypto, enum34, ipaddress, pycparser, cffi, cryptography, pyOpenSSL, pysha3, futures, setuptools, protobuf, grpcio
+Exception:
+Traceback (most recent call last):
+  File "/home/flyq/.local/lib/python2.7/site-packages/pip/basecommand.py", line 215, in main
+    status = self.run(options, args)
+  File "/home/flyq/.local/lib/python2.7/site-packages/pip/commands/install.py", line 342, in run
+    prefix=options.prefix_path,
+  File "/home/flyq/.local/lib/python2.7/site-packages/pip/req/req_set.py", line 784, in install
+    **kwargs
+  File "/home/flyq/.local/lib/python2.7/site-packages/pip/req/req_install.py", line 851, in install
+    self.move_wheel_files(self.source_dir, root=root, prefix=prefix)
+  File "/home/flyq/.local/lib/python2.7/site-packages/pip/req/req_install.py", line 1064, in move_wheel_files
+    isolated=self.isolated,
+  File "/home/flyq/.local/lib/python2.7/site-packages/pip/wheel.py", line 345, in move_wheel_files
+    clobber(source, lib_dir, True)
+  File "/home/flyq/.local/lib/python2.7/site-packages/pip/wheel.py", line 323, in clobber
+    shutil.copyfile(srcfile, destfile)
+  File "/usr/lib/python2.7/shutil.py", line 83, in copyfile
+    with open(dst, 'wb') as fdst:
+IOError: [Errno 13] Permission denied: '/usr/local/lib/python2.7/dist-packages/itsdangerous.pyc'
+出问题了
+
+
+#PIP packages required for some behave tests
+pip install urllib3 ndg-httpsclient pyasn1 ecdsa python-slugify grpcio-tools jinja2 b3j0f.aop six
+Installing collected packages: Unidecode, python-slugify, futures, protobuf, grpcio, grpcio-tools, ordereddict, b3j0f.utils, b3j0f.aop
+Exception:
+Traceback (most recent call last):
+  File "/home/flyq/.local/lib/python2.7/site-packages/pip/basecommand.py", line 215, in main
+    status = self.run(options, args)
+  File "/home/flyq/.local/lib/python2.7/site-packages/pip/commands/install.py", line 342, in run
+    prefix=options.prefix_path,
+  File "/home/flyq/.local/lib/python2.7/site-packages/pip/req/req_set.py", line 784, in install
+    **kwargs
+  File "/home/flyq/.local/lib/python2.7/site-packages/pip/req/req_install.py", line 851, in install
+    self.move_wheel_files(self.source_dir, root=root, prefix=prefix)
+  File "/home/flyq/.local/lib/python2.7/site-packages/pip/req/req_install.py", line 1064, in move_wheel_files
+    isolated=self.isolated,
+  File "/home/flyq/.local/lib/python2.7/site-packages/pip/wheel.py", line 492, in move_wheel_files
+    maker.make_multiple(['%s = %s' % kv for kv in console.items()])
+  File "/home/flyq/.local/lib/python2.7/site-packages/pip/_vendor/distlib/scripts.py", line 383, in make_multiple
+    filenames.extend(self.make(specification, options))
+  File "/home/flyq/.local/lib/python2.7/site-packages/pip/_vendor/distlib/scripts.py", line 372, in make
+    self._make_script(entry, filenames, options=options)
+  File "/home/flyq/.local/lib/python2.7/site-packages/pip/_vendor/distlib/scripts.py", line 276, in _make_script
+    self._write_script(scriptnames, shebang, script, filenames, ext)
+  File "/home/flyq/.local/lib/python2.7/site-packages/pip/_vendor/distlib/scripts.py", line 250, in _write_script
+    self._fileop.write_binary_file(outname, script_bytes)
+  File "/home/flyq/.local/lib/python2.7/site-packages/pip/_vendor/distlib/util.py", line 407, in write_binary_file
+    with open(path, 'wb') as f:
+IOError: [Errno 13] Permission denied: '/usr/local/bin/unidecode'
+报错
+
+
+安装并试用
+https://mlgblockchain.com/setup-hyperledger-fabric.html
+https://mlgblockchain.com/setup-hyperledger-client.html

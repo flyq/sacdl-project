@@ -31,7 +31,7 @@ type statistcs struct {
 
 func main() {
 	http.HandleFunc("/", homePage)
-	if err := http/ListenAndServe(":9001", nil); err != nil {
+	if err := http.ListenAndServe(":9001", nil); err != nil {
 		log.Fatal("failed to start server", err)
 	}
 }

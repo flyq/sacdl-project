@@ -1,0 +1,6 @@
+goroutine是程序中与其他goroutine完全相互独立而并发执行的函数或者方法调用。
+
+所有的goroutine共享相同的地址空间，同时Go语言提供了锁原语来保证数据能够安全地i跨goroutine共享
+
+go function(arguments)
+go func(parameters) { block } (arguments)

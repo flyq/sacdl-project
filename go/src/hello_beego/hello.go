@@ -1,16 +1,10 @@
 package main
 
-import "github.com/astaxie/beego"
+import (
+	"io"
+	"log"
+	"net/http"
+)
 
-type MainController struct {
-	beego.Controller
-}
-
-func (this *MainController) Get() {
-	this.Ctx.WriteString("hello world")
-}
-
-func main() {
-	beego.Router("/fuck", &MainController{})
-	beego.Run()
-}
+func main(){
+	 

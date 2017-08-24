@@ -1,0 +1,25 @@
+// 03类型与变量
+1、课堂回顾
+import (
+        "fmt"
+	"math"
+)
+
+const (
+       PI = 3.14
+       const1 = "1"
+)
+
+var (
+    name = "gopher"
+    name1 = 1
+)
+
+type (
+     newType int
+     type1   float32
+     type2   string
+     type3   byte
+)
+
+1、基本类型

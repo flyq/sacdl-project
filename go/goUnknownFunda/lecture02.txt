@@ -1,0 +1,32 @@
+//02 go基础知识
+1、go内关键字置
+break    default     func     interface    select
+case	 defer 	     go       map 	   struct
+char 	 else 	     goto     package 	   switch 
+const 	 fallthrough if	      range	   type
+continue for  	     import   return 	   var
+
+2、Go程序的一般结构
+package main
+
+import "fmt"
+
+const PI=3.14
+
+var name = "gopher"
+
+type a int
+
+type b struct{}
+
+type c interface{}
+
+func main(){}
+
+3、包的导入
+import "fmt"
+import . "fmt"
+import io "fmt"
+
+4、可见性规则
+使用大小写来决定该常量、变量、类型、接口、结构或函数是否可以被外部包所调用。

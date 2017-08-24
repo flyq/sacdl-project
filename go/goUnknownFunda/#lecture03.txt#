@@ -1,0 +1,67 @@
+// 03类型与变量
+1、课堂回顾
+import (
+        "fmt"
+	"math"
+)
+
+const (
+       PI = 3.14
+       const1 = "1"
+)
+
+var (
+    name = "gopher"
+    name1 = 1
+)
+
+type (
+     newType int
+     type1   float32
+     type2   string
+     type3   byte
+)
+
+1、基本类型
+-bool
+1字节
+true false
+不能用数字代表true或false
+
+-int/uint
+根据运行平台可能为32位或64位。
+
+-int8/uint8
+在必须规定长度时可以用这个。
+-128～127/0～255
+-字节型：byte（uint8别名）
+
+-16位整型：int16/uint16
+-长度 2字节
+- 32768~32767/0~65535
+
+-32 int32(rune) /uint32
+- 4字节
+
+-64 int64/uint64
+- 8字节
+
+-float32/float64
+- 4 字节或8字节
+- 精确到7/或者15位
+
+-复数 complex64/complex128
+-长度：8/16字节
+-足够保存指针的32位或者64位整数型：uintptr
+
+-其他值类型：
+ -array、struct、string
+
+-引用类型：
+-slice、map、char
+
+-接口类型：interface
+-函数类型：func
+
+
+类型零值 

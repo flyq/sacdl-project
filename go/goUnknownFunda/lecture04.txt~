@@ -1,0 +1,32 @@
+课堂练习
+var a int = 65
+b := string(a)
+fmt.Println(b)
+-A
+
+
+
+import "strconv"
+
+var a int = 65
+b := strconv.Itoa(a)
+a, _ = strconv.Atoi(b)
+fmt.Println(a)
+
+
+常量的定义
+const a int =1
+const b = a + 1
+
+常量的初始化与枚举
+定义常量组
+const (
+      a = "A"
+      b
+)
+b 也等于"A"
+
+iota
+常量组里面常量计数器，从0开始计数，一直计数到本身。
+
+常量一般都是大写，可以用下划线隔开，如果不想被外部调用，可以常量名前加c或者_
